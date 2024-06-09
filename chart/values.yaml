@@ -1,0 +1,4 @@
+app:
+  image: registry.gitlab.com/oc-expert-devops-training/workshop-organizer/snapshot:latest
+  port: 80
+  imagePullSecret: gitlab-registry-secret
