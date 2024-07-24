@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: olympic-games-app
-          image: registry.gitlab.com/oc-expert-devops-training/olympic-games-starter/p3-correction
+          image: registry.gitlab.com/oc-expert-devops-training/olympic-games-starter/main
           ports:
             - containerPort: 80
       imagePullSecrets:
